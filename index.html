@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Infix to Postfix/Prefix Converter</title>
+	<script src="scripts.js"></script>
+	<link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+    <form>
+      <h1>Infix to Postfix/Prefix Converter</h1>
+      <div class="form-group">
+        <label for="infix-expression">Enter infix expression:</label>
+        <input type="text" id="infix-expression" placeholder="e.g. (3+4)*5/(6-2)">
+      </div>
+      <div class="form-group">
+        <button type="button" onclick="convert()">Convert</button>
+      </div>
+      <div class="output-group">
+        <label for="postfix-expression">Postfix expression:</label>
+        <input type="text" id="postfix-expression" readonly>
+      </div>
+      <div class="output-group">
+        <label for="prefix-expression">Prefix expression:</label>
+        <input type="text" id="prefix-expression" readonly>
+      </div>
+    </form>
+    
